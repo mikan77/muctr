@@ -1,0 +1,94 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.const {
+	
+}
+.ulg li a{
+	color: #333;
+    font-size: 16px;
+    border-bottom: 0px dashed #999;
+	text-decoration: none;
+	margin-left:60
+}
+.ulg ul li{
+	display: inline-flex;
+	margin-left: 50px;
+	justify-content: center;
+	margin-top: 12px;
+}
+.ulg{
+	height:45px;
+	width: 100%;
+	background: grey;
+	display: flex;
+	justify-content: space-between;
+}
+.body_discribe{
+	min-height: 900px;
+	justify-content: space-around;
+	background-image: url(Friday-1-6.png);      
+	background-position: center center;     
+	background-attachment: fixed;	
+	background-repeat: no-repeat;    	
+	background-size: cover;      
+	background-color: #46464;
+}
+#muctr{
+	margin-right: 40px;
+}
+.discribe{
+	display: flex;
+	justify-content: space-around;
+}
+.discribe h2{
+	text-align: center;
+	color: 	#005c9a;
+	justify-content: center;
+	font-size: 28px;
+	margin-top:200px;
+}
+.discribe img{
+	margin-top:170px;
+	margin-left: 100px;
+}
+.based{
+	min-height: 890px;
+	justify-content: space-around;
+	background-image: url(fon.png);      
+	background-position: center center;     
+	background-attachment: fixed;	
+	background-repeat: no-repeat;    	
+	background-size: cover;      
+	background-color: #46464;
+}
+.facult{
+	display:flex;
+	flex-flow: column;
+}
+.textfacult{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+.textfacult li{
+	margin-bottom: 60px;
+}
+.textfacult li a{
+	border-bottom: 0px dashed black;
+	text-decoration: none;
+	color: black;
+}
+footer{
+	background-color: grey;
+}
+.foot{
+	display: flex;
+	flex-flow: column;
+}
+.foot p{
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
